@@ -1,6 +1,13 @@
-# IFN646-Project
-Mammography Project Repository for IFN646 
+# Breast Imaging Subset - Project Dataset 
+Mammography Project Repository
 
+Autors: 
+- Paul Yomer RUIZ PINTO
+- Si Man Kou
+
+Approach:
+
+Our main contribution is the examination of the two of the three end-to-end fusion models applied by Holste et al. (2021) in a new dataset. Therefore, to address this challenge we apply image and metadata under sampling, image augmentation and transfer learning.  
 
 ## Dataset - CBIS-DDSM (Curated Breast Imaging Subset of DDSM)
 - why CBIS-DDSM? A lack of a standard evaluation data set, most algorithms are evaluated on private datasets or on unspecified subsets of public databases → inability to compare performance of methods or reproducibility
@@ -54,7 +61,7 @@ Mammography Project Repository for IFN646
 - https://medium.com/@ericscuccimarra/convnets-for-classifying-ddsm-mammograms-1739e0fe8028
 - https://github.com/ovh/ai-training-examples/blob/main/notebooks/computer-vision/image-classification/tensorflow/resnet50/     notebook-resnet-transfer-learning-image-classification.ipynb ( Source - Image only)
 
-## Research proposal questions (Draft): 
+## Research proposal questions: 
 
 •	How much does the accuracy (accuracy, precision, recall, F1-score, ROC AUC) of breast cancer diagnosis improved as the number of views or columns increases? 
 
