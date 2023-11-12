@@ -1,6 +1,6 @@
 # Evaluating the Role of Multimodal Clinical Data in Breast Cancer Diagnostic Classifier
 
-Author: Si Man Kou (N11200855), Paul Yomer Ruiz Pinto (N10962646), Pranshu Datta (N10962646)<br/>
+Author: Si Man Kou (N11200855), Paul Yomer Ruiz Pinto (N10962646)
 Last Modified: 5/11/2023<br/>
 Code adapted from https://github.com/gholste/breast_mri_fusion/tree/main which is licensed under MIT License permitting modification and distribution.
 
