@@ -1,0 +1,10 @@
+Importance,Feature,Iteration
+-0.0,breast density,1
+0.012177301509981062,subtlety,1
+-1.4017038869110598e-14,is_left_breast,1
+-0.0,is_CC_view,1
+-0.0,is_mass,1
+-1.4017038869110598e-14,mass_shape,1
+0.048709206039938266,mass_margins,1
+-0.0,calc_type,1
+-0.0,calc_dist,1
