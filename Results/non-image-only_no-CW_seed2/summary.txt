@@ -1,0 +1,26 @@
+Results on test set (n=288):
+
+AUROC: 0.749
+95% CI for AUROC: (0.69, 0.803)
+	via bootstrapping (n=10000)
+Specificity at 95.139% sensitivity: 0.375
+	Threshold used: 0.29967597126960754
+'Optimal' threshold for confusion matrix: 0.5468217730522156
+--------------------------------------------------
+
+ShallowFFNN(
+  (classifier): Sequential(
+    (0): Linear(in_features=33, out_features=1024, bias=True)
+    (1): ReLU(inplace=True)
+    (2): Linear(in_features=1024, out_features=512, bias=True)
+    (3): ReLU(inplace=True)
+    (4): Dropout(p=0.25, inplace=False)
+    (5): Linear(in_features=512, out_features=1, bias=True)
+  )
+)
+--------------------------------------------------
+
+Namespace(data_dir='dataset', out_dir='Results', model='non-image-only', train_mode='default', fusion_mode='concat', max_epochs=100, batch_size=32, patience=5, use_class_weights=False, augment=True, pretrained=False, label_smoothing=0, seed=2)
+
+Class weights: tensor([1., 1.])
+Positive class weight: 1.0
