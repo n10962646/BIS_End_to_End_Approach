@@ -54,6 +54,6 @@ python feature_imp.py   --model learned-feature-fusion
 ## Reference
 ```bash
 Author: Si Man Kou (N11200855), Paul Yomer Ruiz Pinto (N10962646)
-Last Modified: 5/11/2023<br/>
+Last Modified: 5/11/2023
 Code adapted from https://github.com/gholste/breast_mri_fusion/tree/main which is licensed under MIT License permitting modification and distribution.
 ```
