@@ -1,9 +1,5 @@
 # Evaluating the Role of Multimodal Clinical Data in Breast Cancer Diagnostic Classifier
 
-Author: Si Man Kou (N11200855), Paul Yomer Ruiz Pinto (N10962646)
-Last Modified: 5/11/2023<br/>
-Code adapted from https://github.com/gholste/breast_mri_fusion/tree/main which is licensed under MIT License permitting modification and distribution.
-
 --------------
 
 ## Project Abstract
@@ -49,9 +45,15 @@ python train.py --data_dir <path_to_your_dataset> \
                 --model learned-feature-fusion \
                 --seed 0  
 ```
-
 Example to run the learned feature fusion on the above trained model:
 ```python
 python feature_imp.py   --model learned-feature-fusion
                         --model_name learned-feature-fusion-concat_no-CW_aug_seed0
+```
+
+## Reference
+```bash
+Author: Si Man Kou (N11200855), Paul Yomer Ruiz Pinto (N10962646)
+Last Modified: 5/11/2023<br/>
+Code adapted from https://github.com/gholste/breast_mri_fusion/tree/main which is licensed under MIT License permitting modification and distribution.
 ```
